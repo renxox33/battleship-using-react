@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/background.jpg');
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+
+table{
+  margin: 2% 10% 0 20%;
+  height: 900px;
+  width: 1000px;
+  border: 1px solid white;
+}
+
+td, tr{
+  width: 140px;
+  height: 126px;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+}
+
+tr:hover{
+  cursor: pointer;
 }
